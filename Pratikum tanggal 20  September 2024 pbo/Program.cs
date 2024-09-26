@@ -1,4 +1,7 @@
-﻿class Hewan
+﻿// Nama : Naufal Kemal Athilla
+// Nim  : 232410101045
+// Kelas: PBO B
+class Hewan
 {
     public string Nama;
     public int Umur;
