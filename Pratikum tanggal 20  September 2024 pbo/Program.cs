@@ -156,5 +156,12 @@ class ProgramUtama
         Console.WriteLine("Daftar hewan di kebun binatang:");
         kebunbinatang.DaftarHewan();
 
+        //Menampilkan metode suara semua hewan (Demonstrasi Polymorp)
+        singa1.Suara();
+        gajah1.Suara();
+        ular1.Suara();
+        buaya1.Suara();
+
+
     }
 }
