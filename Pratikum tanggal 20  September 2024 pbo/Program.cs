@@ -163,6 +163,17 @@ class ProgramUtama
         Console.WriteLine($"{ular1.Suara()}");
         Console.WriteLine($"{buaya1.Suara()}");
 
+        //Menampilkan Method khusus
+        Console.WriteLine("");
+        singa1.Mengaum();
+        ular1.Merayap();
+
+        //Mengerjakan tugas analisis percobaan 5
+        Console.WriteLine("");
+        Reptil reptil = new Buaya("Buaya biro", 5, 4.1);
+        Console.WriteLine($"{reptil.Suara()}");
+
+
 
     }
 }
