@@ -1,6 +1,8 @@
 ﻿// Nama : Naufal Kemal Athilla
 // Nim  : 232410101045
 // Kelas: PBO B
+using System;
+
 class Hewan
 {
     public string Nama;
@@ -131,6 +133,8 @@ class KebunBinatang
         foreach (var hewan in koleksiHewanhewan)
         {
             Console.WriteLine(hewan.InfoHewan());
+            Console.WriteLine("");
+
         }
     }
 }
@@ -147,6 +151,7 @@ class ProgramUtama
         Buaya buaya1 = new Buaya("Buaya Trino", 2, 4.2);
 
         //Membuat Kebun binatang baru
+
         KebunBinatang kebunbinatang = new KebunBinatang();
 
         //Menambahkan hewan - hewan tersebut ke Kebun binatang yang telah dibuat
@@ -161,6 +166,7 @@ class ProgramUtama
 
         //Menampilkan metode suara semua hewan (Demonstrasi Polymorp)
         Console.WriteLine("");
+        Console.WriteLine("Suara Hewan");
         Console.WriteLine($"{singa1.Suara()}");
         Console.WriteLine($"{gajah1.Suara()}");
         Console.WriteLine($"{ular1.Suara()}");
@@ -168,16 +174,19 @@ class ProgramUtama
 
         //Menampilkan Method khusus
         Console.WriteLine("");
+        Console.WriteLine("Method Khusus:");
         singa1.Mengaum();
         ular1.Merayap();
 
         //Mengerjakan tugas analisis percobaan 3
         Console.WriteLine("");
+        Console.WriteLine("Percobaan 3");
         Console.WriteLine($"{singa1.InfoHewan()}");
         Console.WriteLine($"Jumlah kaki: {singa1.Jumlahkaki}");
 
         //Mengerjakan tugas analisis percobaan 5
         Console.WriteLine("");
+        Console.WriteLine("Percobaan 5");
         Reptil reptil = new Buaya("Buaya biro", 5, 4.1);
         Console.WriteLine($"{reptil.Suara()}");
 
