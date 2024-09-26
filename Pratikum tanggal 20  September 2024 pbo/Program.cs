@@ -30,10 +30,10 @@ class Mamalia : Hewan
     {
         return "Mamalia ini bersuara \n ";
     }
-    public override string InfoHewan()
-    {
-        return $"{base.InfoHewan()}\nJumlah Kaki:{Jumlahkaki}";
-    }
+    //public override string InfoHewan()
+    //{
+    //    return $"{base.InfoHewan()}\nJumlah Kaki:{Jumlahkaki}";
+    //}
 
 }
 class Reptil:Hewan
@@ -49,10 +49,10 @@ class Reptil:Hewan
         return "reptil ini bersuara";
     }
 
-    public override string InfoHewan()
-    {
-        return $"{base.InfoHewan()}\nPanjang Tubuh: {PanjangTubuh}";
-    }
+    //public override string InfoHewan()
+    //{
+    //    return $"{base.InfoHewan()}\nPanjang Tubuh: {PanjangTubuh}";
+    //}
 }
 
 class Singa : Mamalia
@@ -92,7 +92,7 @@ class Ular:Reptil
     }
     public void Merayap()
     {
-        Console.WriteLine("Ular lagi merayap");
+        Console.WriteLine("Ular lagi  merayap");
     }
     public override string Suara()
     {
@@ -167,6 +167,11 @@ class ProgramUtama
         Console.WriteLine("");
         singa1.Mengaum();
         ular1.Merayap();
+
+        //Mengerjakan tugas analisis percobaan 3
+        Console.WriteLine("");
+        Console.WriteLine($"{singa1.InfoHewan()}");
+        Console.WriteLine($"Jumlah kaki: {singa1.Jumlahkaki}");
 
         //Mengerjakan tugas analisis percobaan 5
         Console.WriteLine("");
