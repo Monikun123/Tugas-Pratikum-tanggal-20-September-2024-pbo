@@ -157,10 +157,11 @@ class ProgramUtama
         kebunbinatang.DaftarHewan();
 
         //Menampilkan metode suara semua hewan (Demonstrasi Polymorp)
-        singa1.Suara();
-        gajah1.Suara();
-        ular1.Suara();
-        buaya1.Suara();
+        Console.WriteLine("");
+        Console.WriteLine($"{singa1.Suara()}");
+        Console.WriteLine($"{gajah1.Suara()}");
+        Console.WriteLine($"{ular1.Suara()}");
+        Console.WriteLine($"{buaya1.Suara()}");
 
 
     }
