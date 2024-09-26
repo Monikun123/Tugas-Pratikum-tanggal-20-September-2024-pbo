@@ -68,7 +68,7 @@ class Singa : Mamalia
     }
     public void Mengaum()
     {
-        Console.WriteLine("Singa mengaum sekeras - kerasnya");
+        Console.WriteLine("Singa mengaum sekeras - kerasnya: 'Meowwwww!!!!'");
     }
     public override string Suara()
     {
@@ -85,7 +85,7 @@ class Gajah : Mamalia
 
     public override string Suara()
     {
-        return "Gajah mengeluarkan suar terompet keras";
+        return "Gajah mengeluarkan suara terompet keras";
     }
 }
 
